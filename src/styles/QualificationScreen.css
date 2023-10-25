@@ -1,0 +1,43 @@
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(1em);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.scrolling-image {
+  animation: slide-up 1s ease-out;
+}
+
+.scrolling-container {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  scrollbar-width: none;
+}
+
+h1 {
+  animation: slide-up 1s ease-out;
+  text-align: center;
+}
+.scrolling-image {
+  width: 400px;
+  height: auto;
+  margin: 16px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.scrolling-container::-webkit-scrollbar {
+  display: none;
+}

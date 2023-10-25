@@ -1,0 +1,12 @@
+.project-screen {
+    height: 100vh; /* full screen height */
+    background-color: #282c34; /* or whatever color you desire */
+}
+
+.custom-nav {
+    background-color: #4a4f58; /* adjust based on your design */
+}
+
+.logo-img {
+    margin-right: 10px;
+}
